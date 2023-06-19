@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+
+#navbar{
+    background-image: linear-gradient(to right, rgb(169, 50, 50) ,	#deb887);
+    font-family: 'Amita', cursive;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    color: aqua;
+     justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+   color: aliceblue;
+
+    padding: 13px 20px;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    color: brown;
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Amita', cursive;
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/img/bg.jpg") ;
+    height: 597px;
+    background-color: rgb(48, 131, 163);
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+    color: black;
+}
+#sponsorsSection{
+    height: 300px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Amita', cursive;
+    background-color: #fbd6d6c7;
+}
+#footer{
+    background-color: black;
+    height: 50px;
+    align-self: baseline;
+}
+
+#missionSection{
+    height: 375px;
+    width: 80%;
+    margin: auto;
+}
+
+#missionSection h2{
+    /* font-size: 36px; */
+    font-family: 'Amita', cursive;
+    
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 209px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 54px;
+    padding: 17px 41px;
+    filter: invert(1);
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 131px;
+    padding: 0 14px;
+    margin: 5px 9px;
+    background-blend-mode: multiply;
+
+}
+
+.card-img img{
+    height: inherit; 
+    background-blend-mode: multiply;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto
+}
+
+.spImage{
+    height: 82px;
+    margin: -178px;
+}
+
